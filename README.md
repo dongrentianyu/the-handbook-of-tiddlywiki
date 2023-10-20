@@ -1,41 +1,16 @@
-# Website
+# 《太微之书》是什么？
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+太微之书是一套系统性、面向tiddlywiki新手的基础教程。
 
-### Installation
+# 为什么会写这份教程？
 
-```
-$ yarn
-```
+tiddlywiki本身是一个很好的文档工具，可以用html形式或者nodejs形式部署，都能生成让人访问的网页。但因为tiddlywiki本身比较特殊，新手很多时候不太能了解tiddlywiki的独特之处。但tiddlywiki绝大多数教程又都是以tiddlywiki的形式发布的，所以就导致很多新手连教程都看不完。因为不知道怎么看完一份教程，或者迷路在教程隐藏的无尽链接中。
 
-### Local Development
+所以就有了这份文档，以markdown的形式编写，按照通行的教程思路，一步步把tiddlywiki内容拆解出来。让新手能够快速了解tiddlywiki是什么，怎么使用，有什么独到之处。
 
-```
-$ yarn start
-```
+---
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+* 采用框架[docusaurus](https://docusaurus.io/)搭配github进行部署
+* 感谢[FSpark](https://github.com/FSpark)的指导帮助，使得顺利部署
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+在线网址：https://dongrentianyu.github.io/the-handbook-of-tiddlywiki

@@ -4,45 +4,56 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '太微中文教程',
+    Svg: require('@site/static/img/TiddlyWikiIconBlack.svg').default,
+    link: 'https://tw-cn.netlify.app/',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        中文社区共建的TiddlyWiki教程，体验从入门到知识管理大师之路
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '太微中文论坛',
+    Svg: require('@site/static/img/TiddlyWikiIconBlue.svg').default,
+    link: 'https://talk.tidgi.fun/topic/6/',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        来太微中文论坛讨论吧，把内容沉淀下去，共同发展
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'CPL',
+    Svg: require('@site/static/img/阴阳猫.svg').default,
+    link: 'https://tw-cpl.netlify.app/',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        太微插件聚合中心
+      </>
+    ),
+  },
+
+  {
+    title: 'TiddlyWiki XP',
+    Svg: require('@site/static/img/tiddlywiki-xp.svg').default,
+    link: 'https://keatonlao.github.io/tiddlywiki-xp/',
+    description: (
+      <>
+        TiddlyWiki XP 在官方英文空白版本上装配了一些必备插件，让新手可以快速体验TiddlyWiki的魅力。
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, link, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <a href={link} target="_blank"><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>

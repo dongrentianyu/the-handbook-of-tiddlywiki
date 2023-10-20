@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '太微之书',
-  tagline: 'tiddlywiki从入门到入迷',
+  tagline: 'TiddlyWiki从入门到入迷',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,12 +62,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/favicon.ico',
       navbar: {
-        title: 'My Site',
+        title: '太微之书',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'tiddlywiki Logo',
+          src: 'img/favicon.ico',
         },
         items: [
           {
@@ -78,7 +78,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,7 +88,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
                 label: 'Tutorial',
@@ -97,24 +97,24 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
+                label: 'Talk',
+                href: 'https://talk.tiddlywiki.org/',
+              },
+              {
+                label: 'QQ',
+                href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KdawsTe2_wyge9psEdMtxw6p3IGja-oX&authKey=85azVHAALYhQm1SWGRqWM2c1QQxynUL6CdOr6fvf8JqKBz9kmj2N%2FIcUcnP7A4Ye&noverify=0&group_code=946052860',
+              },
+              {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/tiddlywiki',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
@@ -122,12 +122,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Jermolene/TiddlyWiki5',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 太微之书, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
