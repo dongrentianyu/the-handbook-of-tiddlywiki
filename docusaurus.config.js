@@ -94,6 +94,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Grok TiddlyWiki',
+                href: 'https://groktiddlywiki.com/',
+              },
             ],
           },
           {
@@ -104,7 +108,7 @@ const config = {
                 href: 'https://talk.tiddlywiki.org/',
               },
               {
-                label: 'QQ',
+                label: 'QQ 946052860',
                 href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=KdawsTe2_wyge9psEdMtxw6p3IGja-oX&authKey=85azVHAALYhQm1SWGRqWM2c1QQxynUL6CdOr6fvf8JqKBz9kmj2N%2FIcUcnP7A4Ye&noverify=0&group_code=946052860',
               },
               {
