@@ -62,6 +62,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
+      },
       image: 'img/favicon.ico',
       navbar: {
         title: '太微之书',
