@@ -77,7 +77,7 @@ tiddlywiki 可以实现各种各样的功能，比如写关于某个项目的小
     <th>支付宝</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/docs/img/%E5%BE%AE%E4%BF%A1%E6%89%93%E8%B5%8F%E7%A0%81.jpg?raw=true" width="500px" ></img></td>
-    <td><img src="https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/docs/img/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.jpg?raw=true" width="500px" ></img></td>
+    <td><img src={require('./img/微信打赏码.jpg').default} alt="微信打赏码"/></td>
+    <td><img src={require('./img/支付宝收款码.jpg').default} alt="支付宝收款码"/></td>
   </tr>
 </table>
