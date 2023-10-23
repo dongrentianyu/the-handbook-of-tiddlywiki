@@ -94,7 +94,7 @@ const config = {
         appId: 'IHWH0S1K5Z',
 
         // Public API key: it is safe to commit it
-        apiKey: '31b11158d62f7664cbf26224e8b65075',
+        apiKey: '452e6d27dcde70b671d60dd4c66a31e9',
 
         indexName: 'the-handbook-of-tiddlywiki',
 
