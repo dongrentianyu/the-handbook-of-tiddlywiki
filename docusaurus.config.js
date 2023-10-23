@@ -45,11 +45,32 @@ const config = {
             'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
         },
         blog: {
+          path: 'blog',
+          // Simple use-case: string editUrl
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // Advanced use-case: functional editUrl
+          editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
+            `https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/${blogDirPath}/${blogPath}`,
+          editLocalizedFiles: false,
+          blogTitle: 'Blog title',
+          blogDescription: 'Blog',
+          blogSidebarCount: 5,
+          blogSidebarTitle: 'All our posts',
+          routeBasePath: 'blog',
+          include: ['**/*.{md,mdx}'],
+          exclude: [
+            '**/_*.{js,jsx,ts,tsx,md,mdx}',
+            '**/_*/**',
+            '**/*.test.{js,jsx,ts,tsx}',
+            '**/__tests__/**',
+          ],
+          postsPerPage: 10,
+          blogListComponent: '@theme/BlogListPage',
+          blogPostComponent: '@theme/BlogPostPage',
+          blogTagsListComponent: '@theme/BlogTagsListPage',
+          blogTagsPostsComponent: '@theme/BlogTagsPostsPage',
+          truncateMarker: /<!--\s*(truncate)\s*-->/,
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,6 +88,35 @@ const config = {
           hideable: true,
           autoCollapseCategories: true,
         },
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'IHWH0S1K5Z',
+
+        // Public API key: it is safe to commit it
+        apiKey: '31b11158d62f7664cbf26224e8b65075',
+
+        indexName: 'the-handbook-of-tiddlywiki',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        //... other Algolia params
       },
       tableOfContents: {
         minHeadingLevel: 2,
