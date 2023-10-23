@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkthe_handbook_of_tiddlywiki=self.webpackChunkthe_handbook_of_tiddlywiki||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"blog","permalink":"/the-handbook-of-tiddlywiki/blog/blog"}]}')}}]);
