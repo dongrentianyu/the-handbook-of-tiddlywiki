@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog</id>
     <title>太微之书 Blog</title>
-    <updated>2023-10-24T00:00:00.000Z</updated>
+    <updated>2023-10-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog"/>
     <subtitle>太微之书 Blog</subtitle>
     <icon>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2023年10月25日]]></title>
+        <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/25/</id>
+        <link href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/25/"/>
+        <updated>2023-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[搜索好像修复了，现在应该是我提交了就能够立即建立索引，然后进行检索。就是不知道会不会一直给我发邮件。]]></summary>
+        <content type="html"><![CDATA[<p>搜索好像修复了，现在应该是我提交了就能够立即建立索引，然后进行检索。就是不知道会不会一直给我发邮件。</p><p>咒</p>]]></content>
+        <author>
+            <name>马不前</name>
+            <uri>https://github.com/dongrentianyu</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年10月24日]]></title>
         <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/24/</id>
