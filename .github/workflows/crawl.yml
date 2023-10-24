@@ -1,0 +1,21 @@
+name: Crawl
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Algolia Crawler Automatic Crawl
+        uses: algolia/algoliasearch-crawler-github-actions@v1.1.0
+        with:
+          crawler-user-id: ${{ secrets.ALGOLIA_CRAWLER_USER_ID }}
+          crawler-api-key: ${{ secrets.ALGOLIA_CRAWLER_API_KEY }}
+          github-token: ${{ github.token }}
+          crawler-name: YOUR_CRAWLER_NAME
+          algolia-app-id: ${{ secrets.ALGOLIA_APPLICATION_ID }}
+          algolia-api-key: ${{ secrets.ALGOLIA_API_KEY }}
+          site-url: https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/
