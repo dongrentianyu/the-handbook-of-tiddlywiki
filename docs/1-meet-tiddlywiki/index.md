@@ -1,7 +1,8 @@
 ---
 title: 1-认识太微
-slug: /1-认识太微
+slug: /1-meet-tiddlywiki
 ---
+
 import DocCardList from '@theme/DocCardList';
 
 很多人无法真正使用太微，最重要的一个原因是，没有完整了解太微。这里的完整并非是指源码层次的完整，或者用法上的完整，而是连基本设置的都没有完整了解完。
