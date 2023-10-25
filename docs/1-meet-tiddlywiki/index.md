@@ -1,6 +1,7 @@
 ---
 title: 1-认识太微
 slug: /1-meet-tiddlywiki
+en-name: 1-meet-tiddlywiki
 ---
 
 import DocCardList from '@theme/DocCardList';
