@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthe_handbook_of_tiddlywiki=self.webpackChunkthe_handbook_of_tiddlywiki||[]).push([[661],{1892:(e,s,d)=>{d.r(s),d.d(s,{default:()=>k});d(7294);var r=d(6010),t=d(833),a=d(5281),i=d(8790),o=d(7452),h=d(5893);function k(e){return(0,h.jsx)(t.FG,{className:(0,r.Z)(a.k.wrapper.docsPages),children:(0,h.jsx)(o.Z,{children:(0,i.H)(e.route.routes)})})}}}]);

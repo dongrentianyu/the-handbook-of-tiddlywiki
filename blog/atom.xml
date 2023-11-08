@@ -2,18 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog</id>
     <title>太微之书 Blog</title>
-    <updated>2023-10-25T00:00:00.000Z</updated>
+    <updated>2023-11-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog"/>
     <subtitle>太微之书 Blog</subtitle>
     <icon>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2023年11月09日]]></title>
+        <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/11/09/</id>
+        <link href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/11/09/"/>
+        <updated>2023-11-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[我最开始学习太微的时候，国内太微社区才刚刚开始发展，基本上可以这样说。当时资料很少，大佬们也没有多少时间出来解答问题。当时遇到了问题，林一二就会告诉我去搜索一下什么，然后去学习一下前端的内容。那个时候我是完整意义上的电脑小白和编程小白。几乎什么都不懂，但我也不好意思继续问别人问下去。但我又不知道怎么提问，让别人能够一眼就看明白我的问题，然后给出的解答我可以自己去搜索到。因为我觉得很多东西说起来简单，但要重新复述一遍，肯定是很难或者说很浪费时间的。比如注册一个 github 的账号。这个事情简单吧，但我不会。那么难道要别人开着远程来指导我如何注册 github 账号吗？这不可能，也不现实，不管是从何种意义上来说。]]></summary>
+        <content type="html"><![CDATA[<p>我最开始学习太微的时候，国内太微社区才刚刚开始发展，基本上可以这样说。当时资料很少，大佬们也没有多少时间出来解答问题。当时遇到了问题，林一二就会告诉我去搜索一下什么，然后去学习一下前端的内容。那个时候我是完整意义上的电脑小白和编程小白。几乎什么都不懂，但我也不好意思继续问别人问下去。但我又不知道怎么提问，让别人能够一眼就看明白我的问题，然后给出的解答我可以自己去搜索到。因为我觉得很多东西说起来简单，但要重新复述一遍，肯定是很难或者说很浪费时间的。比如注册一个 github 的账号。这个事情简单吧，但我不会。那么难道要别人开着远程来指导我如何注册 github 账号吗？这不可能，也不现实，不管是从何种意义上来说。</p>
+<p>而对于编程，我又有很多不懂的。所以后面我看到提问的智慧，就立即开始阅读了一遍。现在我知道至少我首先需要能够阐述清楚这个问题是什么，怎么发生的，有没有解决的办法。去谷歌里搜索一遍，再去问别人。不管别人是怎么回复的，我都积极回应，说明问题解决了没有，我的想法是什么。我以为这才是正常的，可后面我遇到的大多数是，我回应了别人的提问，结果一个下午都没回复我。我想着一个下午没回复，可能是别人有工作，比较忙吧。我就想着第二天再问一下他问题解决了没有，结果第二天他很正常的跟其他群友聊其他话题了。很明显，我被忽视了，我的解答也不知道有效还是无效，我当然不能保证我的解答就一定有效，能够成功解决他们的问题。但问题是，我回复了你的问题，你连基本的回复都没有吗？哪怕说一句这个方案没有用都比什么都不说要好啊。</p>
+<p>没有回复，无疑是最大的蔑视。一次两次我能够接受，我可以说这是极个别人的问题，但经历多了之后才发现，原来他们就是想轻松简单，最好直接喂到口的那种地步。我何德何能，我能做到这种地步。刚开始我接受到提问的智慧时，我就转发到群里了，我想着这个东西对我有帮助，那么对其他人肯定也有帮助。结果有个群友出来说，我不是群主，我不适合说这话。我一时之间不知道说什么，后面我就删除了上传的两个文件和相关的消息。当时我其实已经在跟 whitefall 写太微入门教程。当时还打算接着写太微中阶教程来着，结果没了下文。</p>
+<p>我觉得这个东西，既方便自己又方便别人，你能认真提好问题，对解决你的问题也好啊，而且还能给别人留下好印象，下次别人也愿意帮助你，但不知道为什么新手不愿意这样做？我也是从新手成长过来的，我不理解。谁不是从新手成长过来的呢？但如果自身不能成长，一意请求别人的帮助，那又有什么意义呢？你可能节省了一时的时间，占用了其他大佬的时间，但你放弃的是你学习和成长的机会，你放弃了培养自己独立解决问题的能力。自然你现在不觉得有什么，是啊，这确实没有什么。</p>
+<p>前几天，有个群友转发了提问的智慧详解版，然后另一个群友提问，为什么要看提问的智慧？后面他说他看过了，只是开玩笑。当时我不知道，而我的回答是，<strong>除非你不需要别人无偿的帮助，那么提问之前最好看一下</strong>。结果就有人说没必要，只要真诚提问就可以。然后还有人说，像是服从性测试。</p>
+<p>我一下子不知道怎么说了。那天晚上吃饭的时候我都一直在想，想了好久也想不明白，我也不知道该说什么，而且我现在写这些内容，大概也会被认为是写小作文吧，呵。</p>
+<p>后面我就退群了，也没什么需要阐述的了，也说不清楚，也没什么好想的了，反正这种事情也不是一次两次。后面我只在论坛活跃了，或者说偶尔上论坛看一下。</p>
+<p>论坛，QQ 群，我管不着，但在太微之书这份文档里，毕竟是我编写的，那么我就是要把提问的智慧摆出来。如果不符合里面的提问的方式，那请你也不要来提问。没必要浪费双方的时间。付费除外。</p>
+<p>说到付费，我后面有想法自己运营一个付费社区，但目前还是没想到应该如何运营。以前的我对这种付费社区，提高门槛的形式，可以说是嗤之以鼻。现在不一样了，我终于明白，没有基本的门槛，就会进来牛鬼蛇神，各路神仙都来了。</p>
+<p>我想到，竟然人的时间是宝贵的，何必花时间跟群友争论呢？争论来争论去又有什么意义呢？谁也说服不了谁，说服了又能怎么样呢？什么都不会改变。有这时间不如自己打打游戏，看点番剧。</p>
+<p>今天把文档框架从 2.x 升级到了 3 版本了，而这至少花了我两个小时，而这时间又从何说起呢？又有什么必要去说呢？呵呵。</p>
+<p>写完太微之书，我的太微之旅就真正意义上结束了。因为后面不管我是继续研究太微还是做什么与太微相关的，基本上只会补充到太微之书这份文档里。就这样了。</p>
+<p>最后，我必须再说一遍，<strong>markdown 是真他妈难用啊，是真垃圾啊</strong>。</p>]]></content>
+        <author>
+            <name>马不前</name>
+            <uri>https://github.com/dongrentianyu</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年10月25日]]></title>
         <id>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/25/</id>
         <link href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/25/"/>
         <updated>2023-10-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[搜索好像修复了，现在应该是我提交了就能够立即建立索引，然后进行检索。就是不知道会不会一直给我发邮件。]]></summary>
-        <content type="html"><![CDATA[<p>搜索好像修复了，现在应该是我提交了就能够立即建立索引，然后进行检索。就是不知道会不会一直给我发邮件。</p><p>搜索总算是配置好了。现在一提交更新，外部提供的那个就会更新 index 了。然后路由全都换成英文的了，所以 markdown 文件名称都是英文的。不换成英文路由，那边生成的链接再转换会出错。</p>]]></content>
+        <content type="html"><![CDATA[<p>搜索好像修复了，现在应该是我提交了就能够立即建立索引，然后进行检索。就是不知道会不会一直给我发邮件。</p>
+<p>搜索总算是配置好了。现在一提交更新，外部提供的那个就会更新 index 了。然后路由全都换成英文的了，所以 markdown 文件名称都是英文的。不换成英文路由，那边生成的链接再转换会出错。</p>]]></content>
         <author>
             <name>马不前</name>
             <uri>https://github.com/dongrentianyu</uri>
@@ -25,7 +50,31 @@
         <link href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/24/"/>
         <updated>2023-10-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[博客就用来记录遇到的问题吧。因为我不会 react，也不会 jsx，对 markdown 也不熟悉，经常会遇到各种各样的问题。反正有人看就看，没人看就留给未来的我去看，写就写了。文字垃圾也许未来会再利用。]]></summary>
-        <content type="html"><![CDATA[<p>博客就用来记录遇到的问题吧。因为我不会 react，也不会 jsx，对 markdown 也不熟悉，经常会遇到各种各样的问题。反正有人看就看，没人看就留给未来的我去看，写就写了。文字垃圾也许未来会再利用。</p><p>首先是图片的使用。markdown 只能简单引用，所以如果要把图片和其他代码结合起来使用的话，就需要用到 jsx。</p><p>下面是示例。</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;figure class="half"&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &lt;img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="500px" /&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &lt;img src={require('./img/tiddlywiki-xp完整版本.png').default} alt="Example banner"/&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;/figure&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><figure class="half"><img loading="lazy" src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="100px" class="img_ev3q"><img loading="lazy" src="/the-handbook-of-tiddlywiki/assets/images/tiddlywiki-xp完整版本-c1631472905c164a9ee06b93dbaef9dc.png" alt="Example banner" class="img_ev3q"></figure><p>这里，第一张图片是引用网络图片，第二张图片是引用本地图片。</p><p>markdown 图片还有另一个问题，因为我使用了 <code>Office Viewer(Markdown Editor)</code>拓展插件，结果就是这个插件会自动给英文前后加上空格，导致图片一直显示不出来。所以现在图片名称中英夹杂的都会加上-符号。</p><p>还有图片需要调整角度的。一开始我还想着去写 jsx 调整，结果实际上本地里右键点击调整旋转就可以了。至少这样会更简单一点。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="写文档的难处">写文档的难处<a href="#写文档的难处" class="hash-link" aria-label="写文档的难处的直接链接" title="写文档的难处的直接链接">​</a></h2><p>现在我发现写文档需要先把图片搞出来。有了图片我才能继续写下去。没有图片纯文本，我又担心读者看不明白。</p><p>但图片的话，需要手动截图，截图完了需要重命名。命名完了之后还需要压缩一下大小。因为不压缩的话，后面会导致加载太慢或者 git 太大。整个过程我基本上都要备份和分类。</p><p>然后中间还时不时地出现报错，报错了我还得修。有的提示看得懂，有的看不懂，看不懂的就继续尝试解决办法，看这个框架的文档。</p><p>这个框架的文档中文版本没翻译全，一半中文一半英文，我就只好在英文界面开翻译去看。</p><p>这个框架因为是用原生 react 写的，所以基本上无法使用原生的 html，必须使用 jsx 才能写代码。所以我要开始学 jsx 和 react 了。</p><p>markdown 可视化编辑起来体验也不好。因为不可视化就没有上面的编辑栏按钮。可正常写文档的时候，我又不太需要。感觉就是很不方便。真心觉得 markdown 让人很恶心，但还出了个 mdx 来补充，完全是增加学习成本。</p><p>我感觉 tiddlywiki 的 wikitext 领先 markdown 不知道多少。</p><p>我原以为这个框架能够给我带来最大的便利，现在才明白，自己是请了个<strong>祖宗</strong>过来，什么都要看文档，一遍不够看两遍，看不懂就去搜索。感觉有些后悔，但没办法，目前这个是最优解了。</p><p>有的时候我还要去 github 仓库里查看源码，看官方是怎么写的。但这无疑是痛苦的。</p><p>当然还有该死的中英文输入法切换，再加上我用的还是五笔输入法，有的时候打不出字，真的要爆炸。</p><p>程序员不会自信他们写的程序写的很好，但他们有绝对的自信他们的文档写的很好，谁也不知道这种自信是从哪里来的，明明他们是阅读教程和文档最多的人群。</p><p>最终在反复阅读文档的情况下，终于解决了博客标题的设置，不然标题就一直会显示标准时间格式，不会正确显示标题。现在想想太记真是良心，tiddlywiki 真是良心，大部分不需要配置，也不需要写很难看懂的代码。</p>]]></content>
+        <content type="html"><![CDATA[<p>博客就用来记录遇到的问题吧。因为我不会 react，也不会 jsx，对 markdown 也不熟悉，经常会遇到各种各样的问题。反正有人看就看，没人看就留给未来的我去看，写就写了。文字垃圾也许未来会再利用。</p>
+<p>首先是图片的使用。markdown 只能简单引用，所以如果要把图片和其他代码结合起来使用的话，就需要用到 jsx。</p>
+<p>下面是示例。</p>
+<pre><code>&lt;figure class="half"&gt;
+    &lt;img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="500px" /&gt;
+    &lt;img src={require('./img/tiddlywiki-xp完整版本.png').default} alt="Example banner"/&gt;
+&lt;/figure&gt;
+</code></pre>
+<figure class="half"><img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="100px"><img src="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/assets/images/tiddlywiki-xp%E5%AE%8C%E6%95%B4%E7%89%88%E6%9C%AC-c1631472905c164a9ee06b93dbaef9dc.png" alt="Example banner"></figure>
+<p>这里，第一张图片是引用网络图片，第二张图片是引用本地图片。</p>
+<p>markdown 图片还有另一个问题，因为我使用了 <code>Office Viewer(Markdown Editor)</code>拓展插件，结果就是这个插件会自动给英文前后加上空格，导致图片一直显示不出来。所以现在图片名称中英夹杂的都会加上-符号。</p>
+<p>还有图片需要调整角度的。一开始我还想着去写 jsx 调整，结果实际上本地里右键点击调整旋转就可以了。至少这样会更简单一点。</p>
+<h2 id="写文档的难处">写文档的难处</h2>
+<p>现在我发现写文档需要先把图片搞出来。有了图片我才能继续写下去。没有图片纯文本，我又担心读者看不明白。</p>
+<p>但图片的话，需要手动截图，截图完了需要重命名。命名完了之后还需要压缩一下大小。因为不压缩的话，后面会导致加载太慢或者 git 太大。整个过程我基本上都要备份和分类。</p>
+<p>然后中间还时不时地出现报错，报错了我还得修。有的提示看得懂，有的看不懂，看不懂的就继续尝试解决办法，看这个框架的文档。</p>
+<p>这个框架的文档中文版本没翻译全，一半中文一半英文，我就只好在英文界面开翻译去看。</p>
+<p>这个框架因为是用原生 react 写的，所以基本上无法使用原生的 html，必须使用 jsx 才能写代码。所以我要开始学 jsx 和 react 了。</p>
+<p>markdown 可视化编辑起来体验也不好。因为不可视化就没有上面的编辑栏按钮。可正常写文档的时候，我又不太需要。感觉就是很不方便。真心觉得 markdown 让人很恶心，但还出了个 mdx 来补充，完全是增加学习成本。</p>
+<p>我感觉 tiddlywiki 的 wikitext 领先 markdown 不知道多少。</p>
+<p>我原以为这个框架能够给我带来最大的便利，现在才明白，自己是请了个<strong>祖宗</strong>过来，什么都要看文档，一遍不够看两遍，看不懂就去搜索。感觉有些后悔，但没办法，目前这个是最优解了。</p>
+<p>有的时候我还要去 github 仓库里查看源码，看官方是怎么写的。但这无疑是痛苦的。</p>
+<p>当然还有该死的中英文输入法切换，再加上我用的还是五笔输入法，有的时候打不出字，真的要爆炸。</p>
+<p>程序员不会自信他们写的程序写的很好，但他们有绝对的自信他们的文档写的很好，谁也不知道这种自信是从哪里来的，明明他们是阅读教程和文档最多的人群。</p>
+<p>最终在反复阅读文档的情况下，终于解决了博客标题的设置，不然标题就一直会显示标准时间格式，不会正确显示标题。现在想想太记真是良心，tiddlywiki 真是良心，大部分不需要配置，也不需要写很难看懂的代码。</p>]]></content>
         <author>
             <name>马不前</name>
             <uri>https://github.com/dongrentianyu</uri>
