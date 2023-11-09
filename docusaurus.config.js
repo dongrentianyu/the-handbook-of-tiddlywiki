@@ -43,6 +43,9 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
+          remarkPlugins: [
+            [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
+          ],
         },
         blog: {
           path: 'blog',
@@ -120,11 +123,12 @@ const config = {
       },
       tableOfContents: {
         minHeadingLevel: 2,
-        maxHeadingLevel: 5,
+        maxHeadingLevel: 6,
       },
       image: 'img/favicon.ico',
       navbar: {
         title: '太微之书',
+        hideOnScroll: true,
         logo: {
           alt: 'tiddlywiki Logo',
           src: 'img/favicon.ico',
@@ -164,7 +168,7 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Talk',
+                label: '国际论坛',
                 href: 'https://talk.tiddlywiki.org/',
               },
               {
