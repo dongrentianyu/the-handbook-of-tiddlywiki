@@ -136,6 +136,4 @@ tiddlywiki 有些像《道德经》，虽然将其比作《道德经》有过份
 
 import Link from '@docusaurus/Link'
 
-<Link to="##test">go to page!</Link>
-
-<Link to="https://twitter.com/docusaurus">Twitter</Link>
+`<Link to="#test">`test`</Link>`
