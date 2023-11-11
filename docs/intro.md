@@ -63,8 +63,6 @@ tiddlywiki 可以实现各种各样的功能，比如写关于某个项目的小
 
 现在打算以 markdown 的形式，按照通行教程思路，一步步演示 tiddlywiki 应该如何上手使用。
 
-## test
-
 ## 资源下载
 
 因为 tiddlywiki 很多内容都放在了 github 上，而 github 国内又访问不是很方便。所以我建了一个 QQ 群，里面用来存放资料。里面开启禁言，如果想要讨论，可以前往大群里讨论或者去太微中文论坛里讨论。
@@ -136,4 +134,4 @@ tiddlywiki 有些像《道德经》，虽然将其比作《道德经》有过份
 
 import Link from '@docusaurus/Link'
 
-`<Link to="#test">`test`</Link>`
+`<Link to="# 太微和太微之书是什么？">回到顶端</Link>`
