@@ -4,10 +4,28 @@
         <title>太微之书 Blog</title>
         <link>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog</link>
         <description>太微之书 Blog</description>
-        <lastBuildDate>Thu, 09 Nov 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Nov 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[2023年11月10日]]></title>
+            <link>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/11/10/</link>
+            <guid>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/11/10/</guid>
+            <pubDate>Fri, 10 Nov 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[这个框架是真难用。因为上个月底，版本更新到了 3.0 版本，我想着应该是个挺重要的更新。我昨天就更新了一下。]]></description>
+            <content:encoded><![CDATA[<p>这个框架是真难用。因为上个月底，版本更新到了 3.0 版本，我想着应该是个挺重要的更新。我昨天就更新了一下。</p>
+<p>结果这个框架，核心跟功能是分开来的。功能是按照插件来发布的。也就是说，我除了更新核心外，还需要更新那些功能性插件，这不鬼扯吗？然后我更新之后，发现还有很多依赖，也都是需要手动更新的。</p>
+<p>比如有个 mdx-react 的库，就是因为没更新，结果 markdown 标题无法生成链接。这可真叫人崩溃。因为我之前有个旧模板，发现是自带的，结果到这里发现不行。于是我从至少是凌晨四点，早一点的话，可能是凌晨三点半吧，然后一直到上午十一点左右才解决。</p>
+<p>中间就是去吃了个早饭，顶多算半个小时吧。前后至少花了五六个小时来研究。因为这些东西，说重要不重要，说不重要又挺重要。但因为文档几乎没有更新过来。</p>
+<p>我现在觉得这个框架是真难用，完全不如 tiddlywiki，tiddlywiki 那种更新非常简单。然后更新就更新吧，我更新完了所有依赖后，我觉得差不多解决了。</p>
+<p>结果，嘿，你猜怎么着，还要手动修改代码，我的天啊，难道我会代码吗？我不会代码啊。</p>
+<p>结果就是我去查各种文档，问 AI，去网页里搜索。然后看了最新的文档里的一个很小很小的细节里，提到要如何写更新后的代码。</p>
+<p>我的天，完全理解不了。再加上国内基本上没人用这个，完全找不到资料，而中文翻译也是扯淡，翻译了跟没翻译一样。</p>
+<p>我现在真觉得这个框架是面向前端程序员使用的，不是给普通人使用的。现在我衷心热爱 tiddlywiki，那是真香啊。以后谁还说 tiddlywiki 不好用的，来，试试这个框架，那叫一个折磨。</p>
+<p>网络上大部分教程都是 2020 年或者 2022 年的了，这已经是 2023 年年尾了啊。连基本合适的教程都没有，可以说是非常小众了。</p>
+<p>虽然吹得很好，但实际上没有前端背景的，用起来，只能说是自行体会吧。当然我也看到了一些人用的很好。这也不可否认。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2023年11月09日]]></title>
             <link>https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/11/09/</link>
@@ -46,16 +64,12 @@
             <content:encoded><![CDATA[<p>博客就用来记录遇到的问题吧。因为我不会 react，也不会 jsx，对 markdown 也不熟悉，经常会遇到各种各样的问题。反正有人看就看，没人看就留给未来的我去看，写就写了。文字垃圾也许未来会再利用。</p>
 <p>首先是图片的使用。markdown 只能简单引用，所以如果要把图片和其他代码结合起来使用的话，就需要用到 jsx。</p>
 <p>下面是示例。</p>
-<pre><code>&lt;figure class="half"&gt;
-    &lt;img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="500px" /&gt;
-    &lt;img src={require('./img/tiddlywiki-xp完整版本.png').default} alt="Example banner"/&gt;
-&lt;/figure&gt;
-</code></pre>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">&lt;figure class="half"&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &lt;img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="500px" /&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    &lt;img src={require('./img/tiddlywiki-xp完整版本.png').default} alt="Example banner"/&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;/figure&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <figure class="half"><img src="https://pic35.photophoto.cn/20150511/0034034892281415_b.jpg" width="100px"><img src="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/assets/images/tiddlywiki-xp%E5%AE%8C%E6%95%B4%E7%89%88%E6%9C%AC-c1631472905c164a9ee06b93dbaef9dc.png" alt="Example banner"></figure>
 <p>这里，第一张图片是引用网络图片，第二张图片是引用本地图片。</p>
 <p>markdown 图片还有另一个问题，因为我使用了 <code>Office Viewer(Markdown Editor)</code>拓展插件，结果就是这个插件会自动给英文前后加上空格，导致图片一直显示不出来。所以现在图片名称中英夹杂的都会加上-符号。</p>
 <p>还有图片需要调整角度的。一开始我还想着去写 jsx 调整，结果实际上本地里右键点击调整旋转就可以了。至少这样会更简单一点。</p>
-<h2 id="写文档的难处">写文档的难处</h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="写文档的难处">写文档的难处<a href="https://dongrentianyu.github.io/the-handbook-of-tiddlywiki/blog/2023/10/24/#%E5%86%99%E6%96%87%E6%A1%A3%E7%9A%84%E9%9A%BE%E5%A4%84" class="hash-link" aria-label="写文档的难处的直接链接" title="写文档的难处的直接链接">​</a></h2>
 <p>现在我发现写文档需要先把图片搞出来。有了图片我才能继续写下去。没有图片纯文本，我又担心读者看不明白。</p>
 <p>但图片的话，需要手动截图，截图完了需要重命名。命名完了之后还需要压缩一下大小。因为不压缩的话，后面会导致加载太慢或者 git 太大。整个过程我基本上都要备份和分类。</p>
 <p>然后中间还时不时地出现报错，报错了我还得修。有的提示看得懂，有的看不懂，看不懂的就继续尝试解决办法，看这个框架的文档。</p>
