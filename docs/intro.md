@@ -135,3 +135,7 @@ tiddlywiki 有些像《道德经》，虽然将其比作《道德经》有过份
 import Link from '@docusaurus/Link'
 
 `<Link to="# 太微和太微之书是什么？">回到顶端</Link>`
+
+## 其他内容
+
+索引好像失效了，不知道是不是因为升级影响的。aaa 测试一下。
