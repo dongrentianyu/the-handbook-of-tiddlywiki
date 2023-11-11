@@ -11,24 +11,12 @@ const config = {
   title: '太微之书',
   tagline: 'TiddlyWiki从入门到入迷',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
   url: 'https://dongrentianyu.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/the-handbook-of-tiddlywiki/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'dongrentianyu', // Usually your GitHub org/user name.
-  projectName: 'the-handbook-of-tiddlywiki', // Usually your repo name.
-
+  organizationName: 'dongrentianyu',
+  projectName: 'the-handbook-of-tiddlywiki',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -41,8 +29,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/',
           remarkPlugins: [
@@ -51,9 +37,6 @@ const config = {
         },
         blog: {
           path: 'blog',
-          // Simple use-case: string editUrl
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-          // Advanced use-case: functional editUrl
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
             `https://github.com/dongrentianyu/the-handbook-of-tiddlywiki/blob/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
@@ -87,7 +70,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       docs: {
         sidebar: {
           hideable: true,
@@ -95,15 +77,9 @@ const config = {
         },
       },
       algolia: {
-        // The application ID provided by Algolia
         appId: 'IHWH0S1K5Z',
-
-        // Public API key: it is safe to commit it
         apiKey: '452e6d27dcde70b671d60dd4c66a31e9',
-
         indexName: 'the-handbook-of-tiddlywiki',
-
-        // Optional: see doc section below
         contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
@@ -120,8 +96,6 @@ const config = {
 
         // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: 'search',
-
-        //... other Algolia params
       },
       tableOfContents: {
         minHeadingLevel: 2,
