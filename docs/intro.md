@@ -139,3 +139,5 @@ import Link from '@docusaurus/Link'
 ## 其他内容
 
 索引好像失效了，不知道是不是因为升级影响的。aaa 测试一下。
+
+bbb 再测试一下。好像成功了。
